@@ -15,7 +15,7 @@ spec:
         app: gitops-go-app
     spec:
       containers:
-      - image: docker.pkg.github.com/makocchi-git/cicd-code/gitops-go-app:2
+      - image: docker.pkg.github.com/makocchi-git/cicd-code/gitops-go-app:4
         name: gitops-go-app
       imagePullSecrets:
       - name: dockerconfigjson-github-com
